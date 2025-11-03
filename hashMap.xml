@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel= "tests" name="Suite">
+<test name="HashMapTest" thread-count="5">
+    <groups>
+      <run>
+        <include name="hashmap"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="framework.Test.hashMap"/>
+    </classes>
+  </test>
+
+</suite>
