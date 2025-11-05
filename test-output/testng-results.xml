@@ -1,51 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="2" failed="2" skipped="1">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-31T14:42:55 IST" name="Suite" finished-at="2025-10-31T14:43:22 IST" duration-ms="26946">
+  <suite started-at="2025-11-03T13:00:27 IST" name="Suite" finished-at="2025-11-03T13:01:10 IST" duration-ms="43412">
     <groups>
       <group name="ErrorHandling">
-        <method signature="ErroValidations.inValidCred()[pri:0, instance:framework.Test.ErroValidations@a82c5f1]" name="inValidCred" class="framework.Test.ErroValidations"/>
+        <method signature="ErroValidations.inValidCred()[pri:0, instance:framework.Test.ErroValidations@1e0f9063]" name="inValidCred" class="framework.Test.ErroValidations"/>
       </group> <!-- ErrorHandling -->
       <group name="purchase">
-        <method signature="StandAloneTestFramework.submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:framework.Test.StandAloneTestFramework@1169afe1]" name="submitOrder" class="framework.Test.StandAloneTestFramework"/>
+        <method signature="StandAloneTestFramework.submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:framework.Test.StandAloneTestFramework@4b1d6571]" name="submitOrder" class="framework.Test.StandAloneTestFramework"/>
       </group> <!-- purchase -->
     </groups>
-    <test started-at="2025-10-31T14:42:55 IST" name="Error Validation" finished-at="2025-10-31T14:43:13 IST" duration-ms="18116">
-      <class name="framework.Test.ErroValidations">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:framework.Test.ErroValidations@a82c5f1]" started-at="2025-10-31T14:42:55 IST" name="launchApplication" finished-at="2025-10-31T14:43:06 IST" duration-ms="10622" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="inValidCred()[pri:0, instance:framework.Test.ErroValidations@a82c5f1]" started-at="2025-10-31T14:43:06 IST" name="inValidCred" finished-at="2025-10-31T14:43:06 IST" duration-ms="513" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inValidCred -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:framework.Test.ErroValidations@a82c5f1]" started-at="2025-10-31T14:43:06 IST" name="quit" finished-at="2025-10-31T14:43:06 IST" duration-ms="111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:framework.Test.ErroValidations@a82c5f1]" started-at="2025-10-31T14:43:06 IST" name="launchApplication" finished-at="2025-10-31T14:43:09 IST" duration-ms="3157" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="productValidations()[pri:0, instance:framework.Test.ErroValidations@a82c5f1]" started-at="2025-10-31T14:43:09 IST" name="productValidations" finished-at="2025-10-31T14:43:13 IST" duration-ms="3492" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productValidations -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:framework.Test.ErroValidations@a82c5f1]" started-at="2025-10-31T14:43:13 IST" name="quit" finished-at="2025-10-31T14:43:13 IST" duration-ms="179" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- framework.Test.ErroValidations -->
-    </test> <!-- Error Validation -->
-    <test started-at="2025-10-31T14:42:55 IST" name="tandAloneTestFramework" finished-at="2025-10-31T14:43:22 IST" duration-ms="26946">
+    <test started-at="2025-11-03T13:00:27 IST" name="standAloneTestFramework" finished-at="2025-11-03T13:00:57 IST" duration-ms="30488">
       <class name="framework.Test.StandAloneTestFramework">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:framework.Test.StandAloneTestFramework@1169afe1]" started-at="2025-10-31T14:42:55 IST" name="launchApplication" finished-at="2025-10-31T14:43:08 IST" duration-ms="13039" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:framework.Test.StandAloneTestFramework@4b1d6571]" started-at="2025-11-03T13:00:27 IST" name="launchApplication" finished-at="2025-11-03T13:00:37 IST" duration-ms="10036" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:framework.Test.StandAloneTestFramework@1169afe1]" started-at="2025-10-31T14:43:08 IST" name="submitOrder" data-provider="DataSet" finished-at="2025-10-31T14:43:13 IST" duration-ms="4700" status="FAIL">
+        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:framework.Test.StandAloneTestFramework@4b1d6571]" started-at="2025-11-03T13:00:37 IST" name="submitOrder" data-provider="DataSet" finished-at="2025-11-03T13:00:43 IST" duration-ms="5735" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,81 +35,18 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element is not clickable at point (1040, 573)
-  (Session info: chrome=141.0.7390.123)
-Build info: version: '4.36.0', revision: '6d115cfd87'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6a3f4d28726fdddfd3eea48a2d786778, clickElement {id=f.7BA434648573F7A3DD367A55029E2BB1.d.7DB9650D91B23B95248AA5F9E4FEB2F8.e.95}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\HTIC1710\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60626}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60626/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (6a3f4d28726fdddfd3eea48a2d786778)] -> css selector: .totalRow button]
-Session ID: 6a3f4d28726fdddfd3eea48a2d786778]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1040, 573)
-  (Session info: chrome=141.0.7390.123)
-Build info: version: '4.36.0', revision: '6d115cfd87'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6a3f4d28726fdddfd3eea48a2d786778, clickElement {id=f.7BA434648573F7A3DD367A55029E2BB1.d.7DB9650D91B23B95248AA5F9E4FEB2F8.e.95}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\HTIC1710\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60626}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60626/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (6a3f4d28726fdddfd3eea48a2d786778)] -> css selector: .totalRow button]
-Session ID: 6a3f4d28726fdddfd3eea48a2d786778
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-at framework.pageobjects.cartPage.checkout(cartPage.java:35)
-at framework.Test.StandAloneTestFramework.submitOrder(StandAloneTestFramework.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:framework.Test.StandAloneTestFramework@1169afe1]" started-at="2025-10-31T14:43:13 IST" name="quit" finished-at="2025-10-31T14:43:13 IST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:framework.Test.StandAloneTestFramework@4b1d6571]" started-at="2025-11-03T13:00:43 IST" name="quit" finished-at="2025-11-03T13:00:43 IST" duration-ms="415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:framework.Test.StandAloneTestFramework@1169afe1]" started-at="2025-10-31T14:43:13 IST" name="launchApplication" finished-at="2025-10-31T14:43:16 IST" duration-ms="3413" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:framework.Test.StandAloneTestFramework@4b1d6571]" started-at="2025-11-03T13:00:43 IST" name="launchApplication" finished-at="2025-11-03T13:00:47 IST" duration-ms="3682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:framework.Test.StandAloneTestFramework@1169afe1]" started-at="2025-10-31T14:43:16 IST" name="submitOrder" data-provider="DataSet" finished-at="2025-10-31T14:43:22 IST" duration-ms="5128" status="FAIL">
+        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:framework.Test.StandAloneTestFramework@4b1d6571]" started-at="2025-11-03T13:00:47 IST" name="submitOrder" data-provider="DataSet" finished-at="2025-11-03T13:00:52 IST" duration-ms="5656" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -155,48 +64,33 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:framework.Test.StandAloneTestFramework@4b1d6571]" started-at="2025-11-03T13:00:52 IST" name="quit" finished-at="2025-11-03T13:00:53 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:framework.Test.StandAloneTestFramework@4b1d6571]" started-at="2025-11-03T13:00:53 IST" name="launchApplication" finished-at="2025-11-03T13:00:55 IST" duration-ms="2535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="Orderhistory()[pri:0, instance:framework.Test.StandAloneTestFramework@4b1d6571]" started-at="2025-11-03T13:00:55 IST" name="Orderhistory" finished-at="2025-11-03T13:00:57 IST" depends-on-methods="framework.Test.StandAloneTestFramework.submitOrder" duration-ms="1455" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[element click intercepted: Element is not clickable at point (1012, 559)
-  (Session info: chrome=141.0.7390.123)
-Build info: version: '4.36.0', revision: '6d115cfd87'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [84a9847d3b709a1e17cf4f2b0c028cce, clickElement {id=f.A88622BADF184C22462235A6F79FD21E.d.ED9994D875BAE50094D595550C10C1D1.e.111}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\HTIC1710\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65503}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65503/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (84a9847d3b709a1e17cf4f2b0c028cce)] -> xpath: (//button[@type='button'])[2]]
-Session ID: 84a9847d3b709a1e17cf4f2b0c028cce]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1012, 559)
-  (Session info: chrome=141.0.7390.123)
-Build info: version: '4.36.0', revision: '6d115cfd87'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [84a9847d3b709a1e17cf4f2b0c028cce, clickElement {id=f.A88622BADF184C22462235A6F79FD21E.d.ED9994D875BAE50094D595550C10C1D1.e.111}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\HTIC1710\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65503}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65503/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (84a9847d3b709a1e17cf4f2b0c028cce)] -> xpath: (//button[@type='button'])[2]]
-Session ID: 84a9847d3b709a1e17cf4f2b0c028cce
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-at framework.pageobjects.deliveryaddressPage.selectCountry(deliveryaddressPage.java:42)
-at framework.Test.StandAloneTestFramework.submitOrder(StandAloneTestFramework.java:44)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at framework.Test.StandAloneTestFramework.Orderhistory(StandAloneTestFramework.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -205,55 +99,61 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:framework.Test.StandAloneTestFramework@1169afe1]" started-at="2025-10-31T14:43:22 IST" name="quit" finished-at="2025-10-31T14:43:22 IST" duration-ms="199" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method signature="Orderhistory()[pri:0, instance:framework.Test.StandAloneTestFramework@1169afe1]" started-at="2025-10-31T14:43:22 IST" name="Orderhistory" finished-at="2025-10-31T14:43:22 IST" depends-on-methods="framework.Test.StandAloneTestFramework.submitOrder" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method framework.Test.StandAloneTestFramework.Orderhistory() on instance framework.Test.StandAloneTestFramework@1169afe1 depends on not successfully finished methods 
-[framework.Test.StandAloneTestFramework.submitOrder() on instance framework.Test.StandAloneTestFramework@1169afe1]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method framework.Test.StandAloneTestFramework.Orderhistory() on instance framework.Test.StandAloneTestFramework@1169afe1 depends on not successfully finished methods 
-[framework.Test.StandAloneTestFramework.submitOrder() on instance framework.Test.StandAloneTestFramework@1169afe1]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Orderhistory -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:framework.Test.StandAloneTestFramework@4b1d6571]" started-at="2025-11-03T13:00:57 IST" name="quit" finished-at="2025-11-03T13:00:57 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
       </class> <!-- framework.Test.StandAloneTestFramework -->
-    </test> <!-- tandAloneTestFramework -->
+    </test> <!-- standAloneTestFramework -->
+    <test started-at="2025-11-03T13:00:58 IST" name="Error Validation" finished-at="2025-11-03T13:01:10 IST" duration-ms="12124">
+      <class name="framework.Test.ErroValidations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:framework.Test.ErroValidations@1e0f9063]" started-at="2025-11-03T13:00:58 IST" name="launchApplication" finished-at="2025-11-03T13:01:02 IST" duration-ms="3824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="inValidCred()[pri:0, instance:framework.Test.ErroValidations@1e0f9063]" started-at="2025-11-03T13:01:02 IST" name="inValidCred" finished-at="2025-11-03T13:01:03 IST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidCred -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:framework.Test.ErroValidations@1e0f9063]" started-at="2025-11-03T13:01:03 IST" name="quit" finished-at="2025-11-03T13:01:03 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:framework.Test.ErroValidations@1e0f9063]" started-at="2025-11-03T13:01:03 IST" name="launchApplication" finished-at="2025-11-03T13:01:05 IST" duration-ms="2495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productValidations()[pri:0, instance:framework.Test.ErroValidations@1e0f9063]" started-at="2025-11-03T13:01:05 IST" name="productValidations" finished-at="2025-11-03T13:01:10 IST" duration-ms="4457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productValidations -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:framework.Test.ErroValidations@1e0f9063]" started-at="2025-11-03T13:01:10 IST" name="quit" finished-at="2025-11-03T13:01:10 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- framework.Test.ErroValidations -->
+    </test> <!-- Error Validation -->
   </suite> <!-- Suite -->
 </testng-results>

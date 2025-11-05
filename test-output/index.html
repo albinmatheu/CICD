@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\HTIC1710\git\FrameWork-1\SeleniumFrameWorkDesign\testng2.xml</span>
+                    <span>C:\Users\albin\git\CICD\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 2 failed,  1 skipped,  2 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,29 +103,10 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="framework.Test.StandAloneTestFramework" class="method navigator-link" hash-for-method="submitOrder(albin_qa@test.com, 12345678aA!, ZARA COAT 3)">submitOrder(albin_qa@test.com, 12345678aA!, ZARA COAT 3)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="framework.Test.StandAloneTestFramework" class="method navigator-link" hash-for-method="submitOrder(albin_qa@test.com, 12345678aA!, ADIDAS ORIGINAL)">submitOrder(albin_qa@test.com, 12345678aA!, ADIDAS ORIGINAL)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
-                    </span>
-                    <div class="method-list-content skipped suite-Suite">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="framework.Test.StandAloneTestFramework" class="method navigator-link" hash-for-method="Orderhistory">Orderhistory</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -142,6 +123,16 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="framework.Test.ErroValidations" class="method navigator-link" hash-for-method="productValidations">productValidations</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="framework.Test.StandAloneTestFramework" class="method navigator-link" hash-for-method="submitOrder(albin_qa@test.com, 12345678aA!, ZARA COAT 3)">submitOrder(albin_qa@test.com, 12345678aA!, ZARA COAT 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="framework.Test.StandAloneTestFramework" class="method navigator-link" hash-for-method="submitOrder(albin_qa@test.com, 12345678aA!, ADIDAS ORIGINAL)">submitOrder(albin_qa@test.com, 12345678aA!, ADIDAS ORIGINAL)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -164,39 +155,30 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="Orderhistory">
+                  </a> <!-- Orderhistory -->
+                  <span class="method-name">Orderhistory</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at framework.Test.StandAloneTestFramework.Orderhistory(StandAloneTestFramework.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">framework.Test.StandAloneTestFramework</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
                   <a name="submitOrder(albin_qa@test.com, 12345678aA!, ZARA COAT 3)">
                   </a> <!-- submitOrder(albin_qa@test.com, 12345678aA!, ZARA COAT 3) -->
                   <span class="method-name">submitOrder</span>
                   <span class="parameters">(albin_qa@test.com,12345678aA!,ZARA COAT 3)</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1040, 573)
-  (Session info: chrome=141.0.7390.123)
-Build info: version: &apos;4.36.0&apos;, revision: &apos;6d115cfd87&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6a3f4d28726fdddfd3eea48a2d786778, clickElement {id=f.7BA434648573F7A3DD367A55029E2BB1.d.7DB9650D91B23B95248AA5F9E4FEB2F8.e.95}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\HTIC1710\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60626}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60626/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (6a3f4d28726fdddfd3eea48a2d786778)] -&gt; css selector: .totalRow button]
-Session ID: 6a3f4d28726fdddfd3eea48a2d786778
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-	at framework.pageobjects.cartPage.checkout(cartPage.java:35)
-	at framework.Test.StandAloneTestFramework.submitOrder(StandAloneTestFramework.java:39)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -205,63 +187,10 @@ Session ID: 6a3f4d28726fdddfd3eea48a2d786778
                   </a> <!-- submitOrder(albin_qa@test.com, 12345678aA!, ADIDAS ORIGINAL) -->
                   <span class="method-name">submitOrder</span>
                   <span class="parameters">(albin_qa@test.com,12345678aA!,ADIDAS ORIGINAL)</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1012, 559)
-  (Session info: chrome=141.0.7390.123)
-Build info: version: &apos;4.36.0&apos;, revision: &apos;6d115cfd87&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [84a9847d3b709a1e17cf4f2b0c028cce, clickElement {id=f.A88622BADF184C22462235A6F79FD21E.d.ED9994D875BAE50094D595550C10C1D1.e.111}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\HTIC1710\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65503}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65503/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (84a9847d3b709a1e17cf4f2b0c028cce)] -&gt; xpath: (//button[@type=&apos;button&apos;])[2]]
-Session ID: 84a9847d3b709a1e17cf4f2b0c028cce
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-	at framework.pageobjects.deliveryaddressPage.selectCountry(deliveryaddressPage.java:42)
-	at framework.Test.StandAloneTestFramework.submitOrder(StandAloneTestFramework.java:44)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">framework.Test.StandAloneTestFramework</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Orderhistory">
-                  </a> <!-- Orderhistory -->
-                  <span class="method-name">Orderhistory</span>
-                  <div class="stack-trace">java.lang.Throwable: Method framework.Test.StandAloneTestFramework.Orderhistory() on instance framework.Test.StandAloneTestFramework@1169afe1 depends on not successfully finished methods 
-[framework.Test.StandAloneTestFramework.submitOrder() on instance framework.Test.StandAloneTestFramework@1169afe1]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 8 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -287,22 +216,22 @@ Session ID: 84a9847d3b709a1e17cf4f2b0c028cce
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\HTIC1710\git\FrameWork-1\SeleniumFrameWorkDesign\testng2.xml</span>
+            <span class="header-content">C:\Users\albin\git\CICD\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;framework.TestComponents.Listeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;tandAloneTestFramework&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;standAloneTestFramework&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;framework.Test.StandAloneTestFramework&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- tandAloneTestFramework --&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Error Validation&quot;&gt;
+  &lt;/test&gt; &lt;!-- standAloneTestFramework --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Error Validation&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;framework.Test.ErroValidations&quot;/&gt;
     &lt;/classes&gt;
@@ -318,7 +247,7 @@ Session ID: 84a9847d3b709a1e17cf4f2b0c028cce
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">tandAloneTestFramework (1 class)</span>
+                <span class="test-name">standAloneTestFramework (1 class)</span>
               </li>
               <li>
                 <span class="test-name">Error Validation (1 class)</span>
@@ -367,28 +296,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'submitOrder')
 data.setCell(0, 2, 'framework.Test.StandAloneTestFramework')
-data.setCell(0, 3, 5128);
+data.setCell(0, 3, 5735);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'submitOrder')
 data.setCell(1, 2, 'framework.Test.StandAloneTestFramework')
-data.setCell(1, 3, 4700);
+data.setCell(1, 3, 5656);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'productValidations')
 data.setCell(2, 2, 'framework.Test.ErroValidations')
-data.setCell(2, 3, 3492);
+data.setCell(2, 3, 4457);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'inValidCred')
-data.setCell(3, 2, 'framework.Test.ErroValidations')
-data.setCell(3, 3, 513);
+data.setCell(3, 1, 'Orderhistory')
+data.setCell(3, 2, 'framework.Test.StandAloneTestFramework')
+data.setCell(3, 3, 1455);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Orderhistory')
-data.setCell(4, 2, 'framework.Test.StandAloneTestFramework')
-data.setCell(4, 3, 0);
+data.setCell(4, 1, 'inValidCred')
+data.setCell(4, 2, 'framework.Test.ErroValidations')
+data.setCell(4, 3, 747);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -419,65 +348,66 @@ return data;
                 <span class="method-name">launchApplication</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">submitOrder(albin_qa@test.com, 12345678aA!, ZARA COAT 3)</span>
+                <span class="method-start">10038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">15787 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">16205 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">submitOrder(albin_qa@test.com, 12345678aA!, ADIDAS ORIGINAL)</span>
+                <span class="method-start">19888 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">25548 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">25877 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Orderhistory</span>
+                <span class="method-start">28412 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">30025 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">framework.Test.ErroValidations</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">31141 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">inValidCred</span>
-                <span class="method-start">10623 ms</span>
+                <span class="method-start">34968 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">11142 ms</span>
+                <span class="method-start">35720 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">11258 ms</span>
+                <span class="method-start">36016 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">framework.Test.StandAloneTestFramework</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">submitOrder(albin_qa@test.com, 12345678aA!, ZARA COAT 3)</span>
-                <span class="method-start">13040 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">framework.Test.ErroValidations</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">productValidations</span>
-                <span class="method-start">14416 ms</span>
+                <span class="method-start">38511 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">17909 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">framework.Test.StandAloneTestFramework</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">17912 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">launchApplication</span>
-                <span class="method-start">18058 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">submitOrder(albin_qa@test.com, 12345678aA!, ADIDAS ORIGINAL)</span>
-                <span class="method-start">21471 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">26721 ms</span>
+                <span class="method-start">42970 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
